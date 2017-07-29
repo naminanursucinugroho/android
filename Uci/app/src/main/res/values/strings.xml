@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Uci</string>
+    <string name="title_activity_class_kedua">ClassKedua</string>
+    <string name="title_activity_relative">RelativeActivity</string>
+    <string name="title_activity_tabel">ActivityTabel</string>
+    <string name="title_activity_table_layout">TableLayout</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_image">Image</string>
+    <string name="title_activity_image_layout">ImageLayout</string>
+    <string name="title_activity_image_view">ImageView</string>
+    <string name="title_activity_contoh">ContohActivity</string>
+    <string name="title_activity_autocomplete_sederhana">AutocompleteSederhana</string>
+    <string name="hello">Hellow World, autocomplete!</string>
+    <string name="perintah">Masukan minimal 3 huruf</string>
+    <string name="toastTextBtn">Panggil Toast</string>
+    <string name="exitTextBtn">Keluar Applikasi</string>
+    <string name="listDialogTextBtn">Panggil List Dialog</string>
+    <string name="title_activity_kotak_dialog">KotakDialog</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_intent2">Intent2Activity</string>
+</resources>

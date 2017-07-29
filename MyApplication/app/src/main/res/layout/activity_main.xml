@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/LinearLayout1"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="Merah"
+            android:gravity="center_horizontal"
+            android:background="#aa0000"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:text="Hijau"
+            android:gravity="center_horizontal"
+            android:background="#00aa00"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:text="Biru"
+            android:gravity="center_horizontal"
+            android:background="#0000aa"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:text="Kuning"
+            android:gravity="center_horizontal"
+            android:background="#aaaa00"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/LinearLayout2"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="Baris pertama"
+            android:textSize="15pt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="Baris kedua"
+            android:textSize="15pt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="Baris ketiga"
+            android:textSize="15pt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:text="Baris keempat"
+            android:textSize="15pt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/textView5" />
+
+    </LinearLayout>
+</LinearLayout>
