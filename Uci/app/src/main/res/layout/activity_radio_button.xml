@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_radio_button"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.linearlayoutserdahana.id.uci.radioButton">
+
+    <RadioGroup
+        android:padding="5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orientation"
+        android:orientation="horizontal">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontal"
+        android:text="Horizontal"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical"
+        android:text="Vertical"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/gravity"
+        android:orientation="vertical"
+        android:padding="5px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/kanan"
+            android:text="Kanan" />
+        <RadioButton
+            android:text="Kiri"
+            android:id="@+id/kiri" />
+        <RadioButton
+            android:id="@+id/tengah"
+            android:text="Tengah" />
+    </RadioGroup>
+</LinearLayout>

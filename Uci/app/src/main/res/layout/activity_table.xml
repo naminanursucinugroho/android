@@ -10,7 +10,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="assalaam.linearlayoutserdahana.id.uci.TableLayout">
+    tools:context="assalaam.linearlayoutserdahana.id.uci.Table">
 
     <TableRow>
         <TextView
@@ -18,7 +18,7 @@
             android:text="Open..."
             android:padding="3dip"/>
         <TextView
-            android:text="Ctrl-o"
+            android:text="Ctrl-O"
             android:gravity="right"
             android:padding="3dip"/>
     </TableRow>
@@ -29,7 +29,7 @@
             android:text="Save..."
             android:padding="3dip"/>
         <TextView
-            android:text="Ctrl-s"
+            android:text="Ctrl-S"
             android:gravity="right"
             android:padding="3dip"/>
     </TableRow>

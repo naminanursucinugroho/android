@@ -18,4 +18,21 @@
     <string name="title_activity_kotak_dialog">KotakDialog</string>
     <string name="title_activity_intent">IntentActivity</string>
     <string name="title_activity_intent2">Intent2Activity</string>
+    <string name="title_activity_service_background">ServiceBackground</string>
+    <string name="startBtn">Start</string>
+    <string name="stopBtn">Stop</string>
+    <string name="title_activity_picker">Picker</string>
+    <string name="title_activity_check_box">CheckBox</string>
+    <string name="checkBox">CheckBox ini : Tidak Dicentang</string>
+    <string name="title_activity_radio_button">RadioButton</string>
+    <string name="title_activity_widget">Widget</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_table">Table</string>
+    <string name="title_activity_playing_audio">PlayingAudio</string>
+    <string name="title_activity_database">Database</string>
+    <string name="btnAddtxt">Add</string>
+    <string name="namaLabel">Nama</string>
+    <string name="hobiLabel">Hobi</string>
+    <string name="nomorLabel">No.</string>
+    <string name="title_activity_database_manager">DatabaseManager</string>
 </resources>

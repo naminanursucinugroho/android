@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_intent"
+    android:id="@+id/activity_picker"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#ffffff"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="assalaam.linearlayoutserdahana.id.uci.Intent1"
-    android:weightSum="1">
+    tools:context="assalaam.linearlayoutserdahana.id.uci.Picker">
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:text="Terus yang ini activity-2"/>
-
+        android:text="@string/hello"
+        android:id="@+id/dateAndTime"/>
     <Button
-        android:text="Kembali"
-        android:id="@+id/Button02"
+        android:text="Set the Date"
         android:layout_width="fill_parent"
-        android:textSize="18px"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/dayBtn"/>
+    <Button
+        android:text="Set the Time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeBtn"/>
 </LinearLayout>

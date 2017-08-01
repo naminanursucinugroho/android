@@ -1,12 +1,12 @@
 package assalaam.linearlayoutserdahana.id.uci;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.content.Intent;
 
-public class Intent extends Activity {
+public class Intent1 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class Intent extends Activity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View bebek) {
-                Intent myIntent = new Intent(bebek.getContext(), Intent2Activity.class);
+                Intent myIntent = new Intent(bebek.getContext(), Intent2.class);
                startActivityForResult(myIntent, 0);
             }
         });

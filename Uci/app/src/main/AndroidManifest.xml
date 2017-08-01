@@ -4,12 +4,6 @@
     android:versionCode="1"
     android:versionName="1.0">
 
-    <uses-sdk android:minSdkVersion="7" />
-
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -31,13 +25,10 @@
             android:name=".RelativeActivity"
             android:label="@string/title_activity_relative" />
         <activity
-            android:name=".TableLayout"
-            android:label="@string/title_activity_table_layout" />
-        <activity
             android:name=".ImageView"
             android:label="@string/title_activity_image_view" />
         <activity
-            android:name=".AutocompleteSederhana"
+            android:name=".Home"
             android:label="@string/title_activity_autocomplete_sederhana">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,11 +40,44 @@
             android:name=".KotakDialog"
             android:label="@string/title_activity_kotak_dialog" />
         <activity
-            android:name=".Intent"
+            android:name=".Intent1"
             android:label="@string/title_activity_intent" />
         <activity
             android:name=".Intent2"
-            android:label="@string/title_activity_intent2"></activity>
+            android:label="@string/title_activity_intent2" />
+        <activity
+            android:name=".ServiceBackground"
+            android:label="@string/title_activity_service_background" />
+        <activity
+            android:name=".AutocompleteSederhana"
+            android:label="@string/title_activity_picker" />
+        <activity
+            android:name=".checkBox"
+            android:label="@string/title_activity_check_box" />
+        <activity
+            android:name=".Picker"
+            android:label="@string/title_activity_radio_button" />
+        <activity
+            android:name=".radioButton"
+            android:label="@string/title_activity_widget" />
+        <activity
+            android:name=".Widget"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".LinearLayout"
+            android:label="LinearLayout" />
+        <activity
+            android:name=".Table"
+            android:label="@string/title_activity_table" />
+        <activity
+            android:name=".PlayingAudio"
+            android:label="@string/title_activity_playing_audio" />
+        <activity
+            android:name=".Database"
+            android:label="@string/title_activity_database" />
+        <activity
+            android:name=".DatabaseManager"
+            android:label="@string/title_activity_database_manager"></activity>
     </application>
 
 </manifest>
