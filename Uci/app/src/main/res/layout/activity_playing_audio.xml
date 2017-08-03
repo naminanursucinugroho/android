@@ -12,25 +12,40 @@
     tools:context="assalaam.linearlayoutserdahana.id.uci.PlayingAudio">
 
     <TextView
-        android:textSize="15px"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textView"
-        android:text="Memainkan Musik"/>
-
-    <ImageButton
-        android:id="@+id/putarMusik"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="false"
-        android:src="@drawable/play"
-        android:layout_gravity="center_vertical"
-        android:layout_width="fill_parent" />
-
-    <TextView
-        android:text=""
-        android:id="@+id/ket"
+        android:text="Memainkan Musik"
+        android:layout_marginTop="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="15px"/>
+        android:text="PLAY"
+        android:id="@+id/btnPLAY"
+        android:layout_marginTop="102dp"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/btnPAUSE"
+        android:layout_tostartOf="@+id/btnPAUSE"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:id="@+id/STOPBtn"
+        android:layout_alignTop="@+id/btnPAUSE"
+        android:layout_toRightOf="@+id/btnPAUSE"
+        android:layout_toEndOf="@+id/btnPause"
+        android:textColor="#88909090"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:text="by okedroid.com"
+        android:layout_marginBottom="109dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
 </LinearLayout>

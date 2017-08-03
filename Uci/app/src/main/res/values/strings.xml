@@ -29,10 +29,14 @@
     <string name="title_activity_home">Home</string>
     <string name="title_activity_table">Table</string>
     <string name="title_activity_playing_audio">PlayingAudio</string>
+    <string name="StopBtn">Stop</string>
+    <string name="PauseBtn">Pause</string>
     <string name="title_activity_database">Database</string>
     <string name="btnAddtxt">Add</string>
     <string name="namaLabel">Nama</string>
     <string name="hobiLabel">Hobi</string>
     <string name="nomorLabel">No.</string>
     <string name="title_activity_database_manager">DatabaseManager</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="title_activity_calculator">Calculator</string>
 </resources>
