@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#137"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -19,30 +20,35 @@
 
         <Button
             android:id="@+id/Linear"
+            android:background="#b908"
             android:text="Linear"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/Kotak"
+            android:background="#a67"
             android:text="Kotak"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/Relative"
+            android:background="#b908"
             android:text="Relative"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/Autocomplete"
+            android:background="#a67"
             android:text="Autocomplete"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/Tabel"
+            android:background="#b908"
             android:text="Tabel"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
@@ -50,51 +56,72 @@
 
         <Button
             android:id="@+id/Widget"
+            android:background="#a67"
             android:text="Widget"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/Picker"
+            android:background="#b908"
             android:text="Picker"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/radio"
+            android:background="#a67"
             android:text="radio"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/check"
+            android:background="#b908"
             android:text="check"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/intent1"
+            android:background="#a67"
             android:text="Intent1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/intent2"
+            android:background="#b908"
             android:text="Intent2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/image"
+            android:background="#a67"
             android:text="image"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/background"
+            android:background="#b908"
             android:text="background"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/audio"
+            android:background="#a67"
             android:text="audio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/Calculator"
+            android:background="#b908"
+            android:text="calculator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/web"
+            android:background="#a67"
+            android:text="web"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>

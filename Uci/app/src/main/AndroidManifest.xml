@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="assalaam.linearlayoutserdahana.id.uci"
+    package="assalaam.linearlayoutserdahana.id.uci">
+    <uses-permission android:name="android.permission.INTERNET"
     android:versionCode="1"
-    android:versionName="1.0">
+    android:versionName="1.0"/>
 
     <application
         android:allowBackup="true"
@@ -10,16 +11,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".WebView"
-            android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
         <intent-filter>
             <action android:name="android.intent.action.Main" />
 
@@ -84,7 +75,10 @@
             android:label="@string/title_activity_playing_audio" />
         <activity
             android:name=".Calculator"
-            android:label="@string/title_activity_calculator"></activity>
+            android:label="@string/title_activity_calculator" />
+        <activity
+            android:name=".Web"
+            android:label="@string/title_activity_web"></activity>
     </application>
 
 </manifest>

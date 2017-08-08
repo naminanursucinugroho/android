@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button Hitung = (Button) findViewById(R.id.hitung);
         final EditText height_value= (EditText) findViewById(R.id.Height);
-        final EditText weight_value= (EditText) findViewById(R.id.Height);
+        final EditText weight_value= (EditText) findViewById(R.id.Hieght);
         final TextView result = (TextView) findViewById(R.id.Hasil);
 
         Hitung.setOnClickListener(new OnClickListener() {

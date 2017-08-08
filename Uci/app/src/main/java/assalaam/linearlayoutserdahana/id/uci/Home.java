@@ -133,6 +133,23 @@ public class Home extends Activity {
                 startActivityForResult(myIntent, 0);
             }
         });
+        Button calculator = (Button) findViewById(R.id.Calculator);
+        calculator.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View bebek) {
+                Intent myIntent = new Intent(bebek.getContext(), Calculator.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+        Button web = (Button) findViewById(R.id.web);
+        web.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View bebek) {
+                Intent myIntent = new Intent(bebek.getContext(), Web.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
     }
 
 }

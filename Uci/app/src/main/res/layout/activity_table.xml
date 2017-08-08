@@ -45,7 +45,7 @@
             android:padding="3dip"/>
     </TableRow>
 
-    <view
+    <View
         android:layout_height="2dip"
         android:background="#FF909090"/>
 

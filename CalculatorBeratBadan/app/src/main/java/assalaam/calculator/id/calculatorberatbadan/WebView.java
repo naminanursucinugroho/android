@@ -1,4 +1,4 @@
-package assalaam.linearlayoutserdahana.id.uci;
+package assalaam.calculator.id.calculatorberatbadan;
 
 import android.os.Bundle;
 import android.app.Activity;
